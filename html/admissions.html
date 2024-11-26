@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="admission-section" id="admission">
+        <div class="admission-container">
+            <h2 class="admission-title">Apply for Admission</h2>
+            <p class="admission-description">
+                Ready to take the next step in your tech education? Fill out the form below to apply to Teamcsg Tech Hub.
+            </p>
+
+            <form class="admission-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="course">Preferred Course</label>
+                    <select id="course" name="course" required>
+                        <option value="select-course">Select Course</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="Graphics-Design">Graphics</option>
+                        <option value="ai-&-3D Animation">AI & 3D Animation</option>
+                        <option value="microsoft-world">microsolft world</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="admissions.js"></script>
+</body>
+</html>
